@@ -1,0 +1,23 @@
+{
+  "PORT": 4000,
+  "URL": "api",
+  "DB_ADDRESS": "mongodb://localhost:27017/crypto",
+  "API_COINGECKO_URL": "https://api.coingecko.com/api/v3",
+  "JWT_SECRET": "dev-secret",
+  "ALL_EMAILS": {
+    "SERVICE": "gmail",
+    "SUPPORT": {
+      "EMAIL": "email@company",
+      "PASS": "password"
+    },
+    "SYSTEM": {
+      "EMAIL": "email@company",
+      "PASS": "password"
+    },
+    "COMPANY": {
+      "EMAIL": "email@company",
+      "PASS": "password"
+    }
+  },
+  "STATUS_DEV": true
+}
